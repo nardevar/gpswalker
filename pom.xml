@@ -55,7 +55,7 @@
 					<password>Vihaan23@nani</password>
 					<workerType>Micro</workerType>
 					<redeploy>true</redeploy>
-					<environment>DEV-LOCAL</environment>
+					<environment>Production</environment>
 				</configuration>
 				<executions> 
 					<execution> 
