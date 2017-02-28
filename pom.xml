@@ -183,6 +183,19 @@
 			<version>${mule.version}</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+	        <groupId>org.codehaus.jackson</groupId>
+	        <artifactId>jackson-core-asl</artifactId>
+	        <version>1.9.13</version>
+	        <scope>compile</scope> <!-- CHANGE HERE -->
+    	</dependency>
+    	<dependency>
+	        <groupId>org.codehaus.jackson</groupId>
+	        <artifactId>jackson-mapper-asl</artifactId>
+	        <version>1.9.13</version>
+	        <scope>compile</scope> <!-- CHANGE HERE -->
+    	</dependency>
 	</dependencies>
 
 	<repositories>
