@@ -30,7 +30,7 @@
 					<password>Vihaan23@nani</password>
 					<workerType>Micro</workerType>
 					<redeploy>true</redeploy>
-					<environment>Development</environment>
+					<environment>Production</environment>
 				</configuration>
 				<executions> 
 					<execution> 
