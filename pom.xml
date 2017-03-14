@@ -76,7 +76,7 @@
 			</plugin>
 			<plugin>
 			  <groupId>org.mule.tools</groupId>
-			  	<artifactId>muleesb-maven-plugin</artifactId>
+			  	<artifactId>mule-esb-maven-plugin</artifactId>
 			  <version>1.0</version>
 			</plugin>
 			<plugin>
