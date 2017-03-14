@@ -13,8 +13,9 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<mule.version>3.7.3</mule.version>
-    	<mule.tools.version>1.1</mule.tools.version>
+    	<mule.tools.version>1.0</mule.tools.version>
 	</properties>
+	
 	<distributionManagement>
 	    <repository>
 	        <id>central</id>
@@ -27,6 +28,7 @@
 	        <url>http://localhost:8081/artifactory/mymulerepo</url>
 	    </snapshotRepository>
 	</distributionManagement>
+	
 	<build>
 		<plugins>
 		
@@ -71,6 +73,11 @@
 						<descriptorRef>project</descriptorRef>
 					</descriptorRefs>
 				</configuration>
+			</plugin>
+			<plugin>
+			  <groupId>org.mule.tools</groupId>
+			  	<artifactId>muleesb-maven-plugin</artifactId>
+			  <version>1.0</version>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -162,6 +169,7 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		
 		<!-- for testing -->
 		<dependency>
 			<groupId>org.mule.tests</groupId>
@@ -182,6 +190,11 @@
 	        <version>1.9.13</version>
 	        <scope>compile</scope> <!-- CHANGE HERE -->
     	</dependency>
+    	<dependency>
+		    <groupId>org.codehaus.plexus</groupId>
+		    <artifactId>plexus-utils</artifactId>
+		    <version>1.0.4</version>
+		</dependency>
 	</dependencies>
 
 	<repositories>
@@ -209,6 +222,8 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+    
+    
 
 </project>
  
