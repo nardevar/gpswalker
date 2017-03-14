@@ -16,18 +16,13 @@
     	<mule.tools.version>1.0</mule.tools.version>
 	</properties>
 	
-	<!-- <distributionManagement>
+	<distributionManagement>
 	    <repository>
 	        <id>central</id>
 	        <name>IBM220-PC0798EA-releases</name>
-	        <url>http://localhost:8081/artifactory/mymulerepo</url>
+	        <url>http://localhost:8081/artifactory/libs-release</url>
 	    </repository>
-	    <snapshotRepository>
-	        <id>snapshots</id>
-	        <name>IBM220-PC0798EA-snapshots</name>
-	        <url>http://localhost:8081/artifactory/mymulerepo</url>
-	    </snapshotRepository>
-	</distributionManagement>-->
+	</distributionManagement>
 	
 	<build>
 		<plugins>
