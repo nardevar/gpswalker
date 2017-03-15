@@ -32,8 +32,8 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>2.0</version>
 				<configuration>
-					<!-- DeploymentType can be cloudhub or gateway -->
-					<deploymentType>gateway</deploymentType>
+					<!-- DeploymentType can be cloudhub or sandbox -->
+					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>3.7.2</muleVersion>
 					<username>nardevar23</username>
 					<password>Vihaan23@nani</password>
