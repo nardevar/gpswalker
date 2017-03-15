@@ -32,6 +32,7 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>2.0</version>
 				<configuration>
+					<!-- DeploymentType can be cloudhub or sandbox -->
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>3.7.2</muleVersion>
 					<username>nardevar23</username>
@@ -51,6 +52,31 @@
 				</executions>	
     
  			</plugin>
+ 			<!-- for OnPremise Anypoint console -->
+ 		<!--<plugin>
+			    <groupId>org.mule.tools.maven</groupId>
+			    <artifactId>mule-maven-plugin</artifactId>
+			    <version>2.0</version>
+			    <configuration>
+			        <deploymentType>arm</deploymentType>
+			        <username>myUsername</username>
+			        <password>myPassword</password>
+			        <target>server-name</target>-->
+			        <!-- One of: server, serverGroup, cluster:-->
+			      <!--<targetType>server</targetType>
+			      	<redeploy>true</redeploy>
+			        <environment>Production</environment>
+			    </configuration>
+			    <executions>
+			        <execution>
+			            <id>deploy</id>
+			            <phase>deploy</phase>
+			            <goals>
+			                <goal>deploy</goal>
+			            </goals>
+			        </execution>
+			    </executions>
+		</plugin>-->
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-app-maven-plugin</artifactId>
