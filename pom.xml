@@ -45,7 +45,7 @@
 		             <!-- One of: server, serverGroup, cluster -->
 		             <domain>${cloudhub.domain}</domain>
 		             <targetType>server</targetType>
-		             <environment>LocalEnv</environment>
+		             <environment>${ENV}</environment>
 		         </configuration>
 		         <executions>
 		             <execution>
