@@ -43,7 +43,7 @@
 		              <!-- <businessGroup>engineering\devops</businessGroup> -->
 		             <target>CloudHub</target>
 		             <!-- One of: server, serverGroup, cluster -->
-		             <!-- <domain>${cloudhub.domain}</domain> -->
+		             <domain>gpswalkerproj</domain>
 		             <targetType>server</targetType>
 		             <environment>LocalEnv</environment>
 		         </configuration>
