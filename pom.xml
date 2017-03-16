@@ -13,7 +13,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<mule.version>3.7.3</mule.version>
     	<mule.tools.version>1.0</mule.tools.version>
-    	<cloudhub.domain>gpswalkerproj</cloudhub.domain>
+    	<!-- <cloudhub.domain>gpswalkerproj</cloudhub.domain> -->
 	</properties>
 	
 	<distributionManagement>
@@ -43,7 +43,7 @@
 		              <!-- <businessGroup>engineering\devops</businessGroup> -->
 		             <target>CloudHub</target>
 		             <!-- One of: server, serverGroup, cluster -->
-		             <domain>${cloudhub.domain}</domain>
+		             <!-- <domain>${cloudhub.domain}</domain> -->
 		             <targetType>server</targetType>
 		             <environment>LocalEnv</environment>
 		         </configuration>
