@@ -31,11 +31,10 @@
 			    <artifactId>mule-maven-plugin</artifactId>
 			    <version>2.0</version>
 			    <configuration>
-			    <server>anypoint</server>
-			    </configuration><configuration>
 			        <deploymentType>arm</deploymentType>
 			        <!-- <username>nardevar23</username>
 			        <password>Vihaan23@nani</password> -->
+			        <id>anypoint</id>
 			        <target>LocalMule</target>
 			        <targetType>server</targetType>             <!-- One of: server, serverGroup, cluster -->
 			        <environment>Production</environment>
