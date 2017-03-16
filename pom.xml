@@ -11,9 +11,9 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<mule.version>3.7.3</mule.version>
     	<mule.tools.version>1.0</mule.tools.version>
+    	<cloudhub.domain>gpswalkerproj</cloudhub.domain>
 	</properties>
 	
 	<distributionManagement>
@@ -26,13 +26,43 @@
 	
 	<build>
 		<plugins>
-		
 			<plugin>
+		       <groupId>org.mule.tools.maven</groupId>
+		       <artifactId>mule-maven-plugin</artifactId>
+		       <version>2.1.1</version>
+		       <!-- <configuration>
+		             <deploymentType>standalone</deploymentType>
+		             <muleVersion>${mule.version}</muleVersion>
+		         </configuration> -->
+		         <configuration>
+		             <deploymentType>cloudhub</deploymentType>
+		             <muleVersion>${mule.version}</muleVersion>
+		             <username>nardevar23</username>
+		             <password>Vihaan23@nani</password>
+		              <applicationName>gpswalkerproj-${APIVERSION}</applicationName>
+		              <!-- <businessGroup>engineering\devops</businessGroup> -->
+		             <target>CloudHub</target>
+		             <!-- One of: server, serverGroup, cluster -->
+		             <domain>${cloudhub.domain}</domain>
+		             <targetType>server</targetType>
+		             <environment>LocalEnv</environment>
+		         </configuration>
+		         <executions>
+		             <execution>
+		                 <id>deploy</id>
+		                 <phase>deploy</phase>
+		                 <goals>
+		                     <goal>deploy</goal>
+		                 </goals>
+		             </execution>
+		         </executions>
+     		</plugin>
+			<!-- <plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>2.0</version>
 				<configuration>
-					<!-- DeploymentType can be cloudhub or sandbox -->
+					DeploymentType can be cloudhub or sandbox
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>3.7.2</muleVersion>
 					<username>nardevar23</username>
@@ -52,7 +82,7 @@
 				</executions>	
     
  			</plugin>
- 			<!-- for OnPremise Anypoint console -->
+ 	 -->		<!-- for OnPremise Anypoint console -->
  		<!--<plugin>
 			    <groupId>org.mule.tools.maven</groupId>
 			    <artifactId>mule-maven-plugin</artifactId>
