@@ -34,7 +34,7 @@
 			        <deploymentType>arm</deploymentType>
 			        <!-- <username>nardevar23</username>
 			        <password>Vihaan23@nani</password> -->
-			        <id>anypoint</id>
+			        <server>anypoint</server>
 			        <target>LocalMule</target>
 			        <targetType>server</targetType>             <!-- One of: server, serverGroup, cluster -->
 			        <environment>Production</environment>
