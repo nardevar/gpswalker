@@ -33,7 +33,7 @@
 			    <configuration>
 			        <deploymentType>arm</deploymentType>
 			        <username>nardevar23</username>
-			        <password>{VEmO1LRaLBsHaI6itEEIoZKgZEW64LTbOJIy9z3H9Lg=}</password>
+			        <password>Vihaan23@nani</password>
 			        <!-- <redeploy>true</redeploy> -->
 			        <target>LocalMule</target>
 			        <targetType>server</targetType>             <!-- One of: server, serverGroup, cluster -->
