@@ -40,7 +40,7 @@
 			        <targetType>server</targetType>             <!-- One of: server, serverGroup, cluster -->
 			        <environment>${ENV}</environment>
 			        <url>https://anypoint.mulesoft.com</url>
-			        <!-- <armInsecure>true</armInsecure> -->
+			        <armInsecure>true</armInsecure>
 			    </configuration>
 			    <executions>
 			        <execution>
