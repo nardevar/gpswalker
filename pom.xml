@@ -34,11 +34,12 @@
 			        <deploymentType>arm</deploymentType>
 			        <username>nardevar23</username>
 			        <password>{VEmO1LRaLBsHaI6itEEIoZKgZEW64LTbOJIy9z3H9Lg=}</password>
-			        <redeploy>true</redeploy>
+			        <!-- <redeploy>true</redeploy> -->
 			        <target>LocalMule</target>
 			        <targetType>server</targetType>             <!-- One of: server, serverGroup, cluster -->
 			        <environment>Production</environment>
 			        <url>https://anypoint.mulesoft.com</url>
+			        <armInsecure>true</armInsecure>
 			    </configuration>
 			    <executions>
 			        <execution>
