@@ -35,7 +35,7 @@
 			        <username>nardevar23</username>
 			        <password>Vihaan23@nani</password>
 			        <server>anypoint</server>
-			        <!-- <redeploy>true</redeploy> -->
+			        <redeploy>true</redeploy>
 			        <target>LocalMule</target>
 			        <targetType>server</targetType>             <!-- One of: server, serverGroup, cluster -->
 			        <environment>${ENV}</environment>
