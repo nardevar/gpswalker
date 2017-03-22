@@ -32,9 +32,9 @@
 			    <version>2.0</version>
 			    <configuration>
 			        <deploymentType>arm</deploymentType>
-			        <!-- <username>nardevar23</username>
-			        <password>Vihaan23@nani</password> -->
-			        <server>anypoint</server>
+			        <username>nardevar23</username>
+			        <password>{VEmO1LRaLBsHaI6itEEIoZKgZEW64LTbOJIy9z3H9Lg=}</password>
+			        <redeploy>true</redeploy>
 			        <target>LocalMule</target>
 			        <targetType>server</targetType>             <!-- One of: server, serverGroup, cluster -->
 			        <environment>Production</environment>
