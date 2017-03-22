@@ -32,8 +32,8 @@
 			    <version>2.0</version>
 			    <configuration>
 			        <deploymentType>arm</deploymentType>
-			        <!-- <username>nardevar23</username>
-			        <password>Vihaan23@nani</password> -->
+			        <username>nardevar23</username>
+			        <password>Vihaan23@nani</password>
 			        <server>anypoint</server>
 			        <!-- <redeploy>true</redeploy> -->
 			        <target>LocalMule</target>
