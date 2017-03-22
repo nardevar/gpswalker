@@ -37,7 +37,7 @@
 			        <!-- <redeploy>true</redeploy> -->
 			        <target>LocalMule</target>
 			        <targetType>server</targetType>             <!-- One of: server, serverGroup, cluster -->
-			        <environment>Production</environment>
+			        <environment>${ENV}</environment>
 			        <url>https://anypoint.mulesoft.com</url>
 			        <armInsecure>true</armInsecure>
 			    </configuration>
