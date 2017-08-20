@@ -32,7 +32,7 @@
 			    <version>2.0</version>
 			    <configuration>
 			        <deploymentType>arm</deploymentType>
-			        <username>vihaan23</username>
+			        <username>nardevar29</username>
 			        <password>Kush23@nani</password>
 			        <server>anypoint</server>
 			        <redeploy>true</redeploy>
